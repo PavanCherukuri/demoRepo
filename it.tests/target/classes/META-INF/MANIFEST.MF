@@ -1,22 +1,23 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1615525701377
-Bundle-Category: demonstrationProject
 Bundle-Description: "Bundles for Integration Tests for demonstrationPr
  oject"
-Bundle-ManifestVersion: 2
-Bundle-Name: demonstrationProject - Integration Tests Bundles
 Bundle-SymbolicName: demonstrationProject.it.tests
-Bundle-Version: 1.0.0.20210312050821377
-Created-By: 1.8.0_271 (Oracle Corporation)
-Export-Package: com.mindtree.demonstrationProject.it.tests;version="1.
- 0";uses:="org.apache.sling.junit.annotations,org.junit,org.junit.runn
- er"
+Bundle-Category: demonstrationProject
+Bnd-LastModified: 1615526341037
+Bundle-ManifestVersion: 2
 Import-Package: com.mindtree.demonstrationProject.core.models;version=
  "[1.0,2)",org.apache.sling.api.resource;version="[2.11,3)",org.apache
  .sling.junit.annotations;version="[1.0,2)",org.apache.sling.settings;
  version="[1.3,2)",org.junit;version="[4.8,5)",org.junit.runner;versio
  n="[4.8,5)"
 Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
-Sling-Test-Regexp: .*Test
 Tool: Bnd-4.2.0.201903051501
+Export-Package: com.mindtree.demonstrationProject.it.tests;version="1.
+ 0";uses:="org.apache.sling.junit.annotations,org.junit,org.junit.runn
+ er"
+Bundle-Name: demonstrationProject - Integration Tests Bundles
+Bundle-Version: 1.0.0.20210312051901036
+Sling-Test-Regexp: .*Test
+Build-Jdk-Spec: 1.8
+Created-By: 1.8.0_271 (Oracle Corporation)
 
