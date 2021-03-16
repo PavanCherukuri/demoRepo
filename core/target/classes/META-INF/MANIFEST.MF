@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-Description: "Core bundle for demonstrationProject"
 Bundle-SymbolicName: demonstrationProject.core
 Bundle-Category: demonstrationProject
-Bnd-LastModified: 1615526339431
+Bnd-LastModified: 1615571882135
 Bundle-ManifestVersion: 2
 Import-Package: com.day.cq.wcm.api;version="[1.27,2)",com.mindtree.dem
  onstrationProject.core.filters;version="[1.0,2)",com.mindtree.demonst
@@ -39,7 +39,7 @@ Export-Package: com.mindtree.demonstrationProject.core.filters;version
  ionProject.core.servlets;version="1.0";uses:="javax.servlet,org.apach
  e.sling.api,org.apache.sling.api.servlets"
 Bundle-Name: demonstrationProject - Core
-Bundle-Version: 1.0.0.20210312051859430
+Bundle-Version: 1.0.0.20210312175802134
 Build-Jdk-Spec: 1.8
 Created-By: 1.8.0_271 (Oracle Corporation)
 Sling-Model-Packages: com.mindtree.demonstrationProject.core.models

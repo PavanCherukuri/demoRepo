@@ -3,7 +3,7 @@ Bundle-Description: "Bundles for Integration Tests for demonstrationPr
  oject"
 Bundle-SymbolicName: demonstrationProject.it.tests
 Bundle-Category: demonstrationProject
-Bnd-LastModified: 1615526341037
+Bnd-LastModified: 1615571927039
 Bundle-ManifestVersion: 2
 Import-Package: com.mindtree.demonstrationProject.core.models;version=
  "[1.0,2)",org.apache.sling.api.resource;version="[2.11,3)",org.apache
@@ -16,7 +16,7 @@ Export-Package: com.mindtree.demonstrationProject.it.tests;version="1.
  0";uses:="org.apache.sling.junit.annotations,org.junit,org.junit.runn
  er"
 Bundle-Name: demonstrationProject - Integration Tests Bundles
-Bundle-Version: 1.0.0.20210312051901036
+Bundle-Version: 1.0.0.20210312175847039
 Sling-Test-Regexp: .*Test
 Build-Jdk-Spec: 1.8
 Created-By: 1.8.0_271 (Oracle Corporation)
